@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity" >
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:text=" If you want to change any details press on the edit text and edit followed by clicking save"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Username"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvDisplayUsername"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="DisplayUsername"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:textColor="@color/blue"
+        android:text="Password"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvDisplayPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Display Password"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter New Password if needed"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvDisplayAge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Display Age"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNewAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your New Age if Needed"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivery Address"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvDisplayAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Display Address"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Enter Your New Delivery Address if Needed"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:backgroundTint="@color/trangnhat"
+        android:textColor="@color/blue"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btBackShopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Shopping"
+        app:backgroundTint="@color/trangnhat"
+        android:textColor="@color/blue"
+        android:textSize="30dp"/>
+</LinearLayout>

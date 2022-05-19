@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiniProject2_RaynardThian">
+        <activity android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.FinalCheckout"></activity>
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.AdminInsertFood"
+            android:label="Admin Insert"
+
+            />
+        <activity android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.FoodItemActivity" />
+        <activity android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.AlbumAdapter" />
+        <activity android:name=".ChickenActivity" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.AdminLoginActivity"
+            android:label="Admin Login" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.AdminActivity"
+            android:label="Admin Logs" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.CheckoutActivity"
+            android:label="Checkout Page" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.ShoppingActivity"
+            android:label="Shopping" />
+        <activity android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.ProfileActivity" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.CustomerActivity"
+            android:label="Customer Login" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.RegisterActivity"
+            android:label="New Registration" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.ForgotActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name="hcmute.lecongthuong_19110058.tranvanthien_19110136.foody.MainActivity"
+            android:label="Food Ordering App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

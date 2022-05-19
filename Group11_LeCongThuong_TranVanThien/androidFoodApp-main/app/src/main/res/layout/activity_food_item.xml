@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodItemActivity">
+
+    <ImageView
+        android:id="@+id/ivFood"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvFood"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Food Item"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Description"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvCost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="CostPrice"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Quantity:"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:hint="Enter the quantity"
+        android:textColor="@color/blue"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btEnter"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Enter"
+        android:textSize="50dp"
+        android:textColor="@color/blue"
+        app:backgroundTint="@color/trangnhat"  />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Back"
+        android:textColor="@color/blue"
+        android:textSize="50dp"
+        app:backgroundTint="@color/trangnhat" />
+</LinearLayout>

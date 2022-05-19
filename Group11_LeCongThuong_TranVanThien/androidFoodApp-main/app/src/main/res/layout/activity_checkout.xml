@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckoutActivity">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Press on the order to delete the order" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Total Price"
+        android:textColor="@color/blue"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvCostPrice"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Delivery Destination"
+        android:textColor="@color/blue"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Total Orders"
+        android:textColor="@color/blue"
+        android:textSize="30dp" />
+
+    <ListView
+        android:id="@+id/lvFoodItems"
+        android:layout_width="match_parent"
+        android:layout_height="244dp" />
+
+    <Button
+        android:id="@+id/btOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        app:backgroundTint="@color/trangnhat"
+        android:textColor="@color/blue"
+        android:textSize="50dp"/>
+
+</LinearLayout>
